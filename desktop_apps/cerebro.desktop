@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Cerebro
+Comment=Application Launcher
+Exec=/home/berger/ubuntu_config/scripts/launch_cerebro.sh
+Icon=/home/berger/cerebro/build/icon.png
+Terminal=true
+Type=Application
+Categories=Automation

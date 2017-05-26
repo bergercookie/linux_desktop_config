@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=xinput set-prop 13 "Synaptics Palm Dimensions" 5, 5
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Touchpad Palm Dimensions
+Name=Touchpad Palm Detect
+Comment[en_US]=
+Comment=

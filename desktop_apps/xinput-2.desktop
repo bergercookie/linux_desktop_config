@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=xinput set-prop 14 "Device Accel Constant Deceleration" 5
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Pointing Stick sensitivity
+Name=Pointing Stick sensitivity
+Comment[en_US]=
+Comment=
