@@ -1,0 +1,9 @@
+#!/bin/bash
+
+xrandr --output HDMI2 --off \
+    --output HDMI1 --off \
+    --output DP1 --off \
+    --output eDP1 --auto --pos 0x0 --rotate normal \
+    --scale 1x1 \
+    --output VIRTUAL1 --off
+

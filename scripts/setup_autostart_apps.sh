@@ -3,8 +3,10 @@
 
 printf "Setting up symbolic links for desktop apps...\n"
 
+repo="${HOME}/linux_desktop_config"
+
 system_app_dir="/usr/share/applications"
-source_dir="${HOME}/ubuntu_config/desktop_apps"
+source_dir="${repo}/desktop_apps"
 target_dir="${HOME}/.config/autostart"
 
 function link_app_generic() {
@@ -26,7 +28,8 @@ done
 standard_apps="\
     firefox \
     terminator \
-    viber"
+    viber \
+    skypeforlinux "
 
 for app in ${standard_apps}; do
     link_app_generic ${system_app_dir} ${target_dir} "${app}.desktop"
